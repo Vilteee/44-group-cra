@@ -1,5 +1,6 @@
 import logoWhite from '../img/logo-white.png';
 import './Footer.css';
+import { ButtonScroll}  from './ButtonScroll';
 
 export function Footer() {
     return (
@@ -14,7 +15,7 @@ export function Footer() {
                     <a className="fa fa-instagram" href="/">Instagram</a>
                     <a className="fa fa-rss" href="/">RSS</a>
                 </div>
-                <a className="btn btn-circle fa fa-angle-up" href="/">Back to top</a>
+                <ButtonScroll />
             </div>
             <div className="row-short">
                 <img className="footer-logo" src={logoWhite} alt="Logo" />
